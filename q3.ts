@@ -1,5 +1,15 @@
-function primeNumber(a) {
-  /* Your code here */
+//วิชุดา รอดนา 660610794
+function primeNumber(a : number) {
+  if (a < 2) {
+    return "NO";
+  }
+  for (let i = 2; i < a; i++) {
+    if (a % i === 0) {
+      return "NO";
+    }
+  }
+  return "YES"; 
+  
 }
 
 const d1 = 10;

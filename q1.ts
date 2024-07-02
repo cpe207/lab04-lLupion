@@ -1,5 +1,12 @@
-function typeChecker(a, b) {
-  /* Your code here */
+//วิชุดา รอดนา 660610794
+function typeChecker(a: any, b: any) {
+  if ( typeof a === "string" && typeof b === "string" ) {
+    return "I LOVE YOU";
+  } else if (typeof a === "number" && typeof b === "number") {
+    return a+b;
+  } else {
+    return "NOT MATCHED";
+  }
 }
 
 //Test cases
@@ -15,3 +22,5 @@ console.log(typeChecker(a2, b2));
 console.log(typeChecker(a3, b3));
 
 module.exports = typeChecker;
+
+ 

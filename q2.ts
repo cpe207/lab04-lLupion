@@ -1,5 +1,10 @@
-function arrayStringify(a) {
-  /* Your code here */
+//วิชุดา รอดนา 660610794
+function arrayStringify(a : any[]) {
+  let ans = '';
+  for (let i = 0; i < a.length ; i++){
+    ans += String(a[i]);
+  }
+  return ans;
 }
 
 const c1 = [1, 2, 3];
